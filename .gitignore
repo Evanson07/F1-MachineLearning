@@ -1,0 +1,18 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Datos de F1 (Son archivos pesados, no los queremos en GitHub)
+data/
+*.pkl
+*.parquet
+
+# Python basura
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración de VS Code
+.vscode/
+.env
